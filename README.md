@@ -4,7 +4,7 @@
 This project is a replication of the Genome Wide Association Study of glucosinolate abundance phenotypes in Arabidopsis Thaliana carried out in Gloss et al 2022 (https://pmc.ncbi.nlm.nih.gov/articles/PMC9149790/). Specifically, GWAS of individual phenotypes, finding the intersect of significant SNPs between the replication and the original study, determining which and how many SNPs overlap with glucosinolate biosynthetic candidate gene regions, and generating Manhattan plots to visualize gene associations. 
 
 ## Table of Contents
--Inputs
+##Inputs
   -phen_glucosinolatesBLUPs_2021-08-02.csv:
     -phenotype input: contains best linear unbiased predictions (BLUPs) generated from raw spectrometry data. Generating BLUPs from raw data accounts for noise that can result from variability          between samples, spectrometers, time, batch effect, and randomness. The BLUPs represent abundances of glucosinolate metabolytes within ~200 accessions and are processed to be the phenotype         input to GEMMA GWAS mixed linear modeling. 
   -TOU_accessions.csv:
