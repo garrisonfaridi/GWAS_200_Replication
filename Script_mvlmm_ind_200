@@ -1,0 +1,1 @@
+gemma -lmm 1 -maf 0.03 -miss 0.1 -bfile genotypes -k dat_tot_ForGemma_kmat_200GF.cXX.txt -p dat_tot_ForGemmaGF_200.csv -n 14 15 16 17 -o mvlmm_maf03_200GF
